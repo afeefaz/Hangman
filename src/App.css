@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+#root {
+  margin: 40px;
+  font-size: 3rem;
+}
+.letters{
+  width: 100%;
+  font-size: 5rem;
+}
+span {
+  margin-right: 2rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.notChecked {
+  text-decoration: none;
+}
+.checked {
+  text-decoration: line-through;
+  pointer-events: none;
+}
+.high-score{
+  color: green;
+}
+.medium-score{
+  color: orange;
+}
+.low-score{
+  color: red;
+}
